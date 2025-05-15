@@ -1,0 +1,21 @@
+BEGIN
+
+let x = 5;
+let y = 10;
+
+add x y into z;
+sub x y into w;
+mul x y into v;
+div x y into u;
+
+if (z > 10) then {
+    sub 1 from z;
+}    
+else {
+    add 1 to z;
+}
+while (z < 20) {
+    add 1 to z;
+}
+
+END
