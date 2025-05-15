@@ -1,0 +1,39 @@
+BEGIN
+t1 = 5
+x = t1
+t2 = 10
+y = t2
+t3 = x + y
+z = t3
+t4 = x - y
+w = t4
+t5 = x * y
+v = t5
+t6 = x / y
+u = t6
+t7 = 10
+t8 = z > t7
+if t8 goto L1
+goto L2
+L1:
+t9 = 1
+t10 = z - t9
+z = t10
+goto L4
+L3:
+t11 = 1
+t12 = z + t11
+z = t12
+L4:
+L5:
+t13 = 20
+t14 = z < t13
+if t14 goto L6
+goto L7
+L6:
+t15 = 1
+t16 = z + t15
+z = t16
+goto L5
+L7:
+END
